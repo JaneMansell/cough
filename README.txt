@@ -2,7 +2,7 @@ These Colab Notebooks include the source code to recreate the models in my disse
 Before starting you need to download the CoughVID dataset from
 https://zenodo.org/record/4498364#.YvkdwXbMKUk
 Store on your Google Drive in a folder called
-/Colab Notebooks/coughvid/public_dataset
+/ColabÂ Notebooks/coughvid/public_dataset
 
 The following 2 Colab Notebooks will clone the relevant GitHubs for Virufy and Coswara data and extract the audio files and metadata to your Google Drive:
 
@@ -26,6 +26,7 @@ Dataset_dataframe.ipynb
 
 The following notebook splits out a test set so that all methods are tested on the same unseen data. My sets are available on the repository. They are df_train.csv and df_test.csv so running this notebook can be skipped and these files used instead.
 Create_a_test_set.ipynb
+
 These notebooks test the different methods to combat class imbalance in the datasets:
 Detecting_COVID_CNN_bias_initializer.ipynb
 Detecting_COVID_CNN_threshold_moving.ipynb
@@ -34,7 +35,7 @@ Detecting_COVID_CNN_oversampling.ipynb
 Detecting_COVID_CNN_Undersampling.ipynb
 Detecting_COVID_CNN_Mixed.ipynb
 
-These notebooks investigated structures from other author’s papers:
+These notebooks investigated structures from other authorâ€™s papers:
 Andreu_Perez_ Detecting_COVID_CNN_oversampling.ipynb
 Dunne_ Detecting_COVID_CNN_oversampling.ipynb
 Imran_ Detecting_COVID_CNN_oversampling.ipynb
